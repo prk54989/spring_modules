@@ -1,13 +1,13 @@
-package codebase.platform;
-
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class SpringModulesApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
-}
+//package codebase.platform;
+//
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//@SpringBootTest
+//class SpringModulesApplicationTests {
+//
+//	@Test
+//	void contextLoads() {
+//	}
+//
+//}

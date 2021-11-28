@@ -12,7 +12,8 @@
 		<module>spring-boot-mockito</module>
 		<module>spring-cloud-task-app</module>
 		<module>spring-boot-mongodb</module>
-	</modules>
+        <module>spring-boot-h2</module>
+    </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
