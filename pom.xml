@@ -10,6 +10,8 @@
 		<module>functional_operation</module>
 		<module>s3-file-storage</module>
 		<module>spring-boot-mockito</module>
+		<module>spring-cloud-task-app</module>
+		<module>spring-boot-mongodb</module>
 	</modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
