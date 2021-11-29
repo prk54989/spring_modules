@@ -11,7 +11,7 @@ public class OptionalDemo {
         List<Customer> customers = EkartDataBase.getAll();
         return customers.stream()
                 .filter(customer -> customer.getEmail().equals(email))
-                .findAny().orElseThrow(() -> new Exception("no customer present with this email id"));
+                .findAny().orElseThrow(() -> new Exception("No Customer Present with this email id"));
 
     }
 
@@ -30,7 +30,7 @@ public class OptionalDemo {
 //        System.out.println(emailOptional);
 
         Optional<String> emailOptional = Optional.ofNullable(customer.getEmail());
-        if(emailOptional.isPresent()){
+        if (emailOptional.isPresent()) {
             System.out.println(emailOptional.get());
         }
         // System.out.println(emailOptional2.orElse("default@email.com"));
