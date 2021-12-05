@@ -14,7 +14,8 @@
 <!--		<module>spring-boot-mongodb</module>-->
 <!--        <module>spring-boot-h2</module>-->
 		<module>spring-boot-security-jwt</module>
-	</modules>
+        <module>spring-boot-graphQL</module>
+    </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
