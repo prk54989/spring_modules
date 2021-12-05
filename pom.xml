@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-<!--        <module>spring-boot-lambda</module>-->
+        <module>spring-boot-lambda</module>
 <!--						<module>springboot-aws-lambda</module>-->
 <!--		<module>spring-cloud-function</module>-->
 <!--		<module>functional_operation</module>-->
@@ -15,7 +15,6 @@
 <!--        <module>spring-boot-h2</module>-->
 		<module>spring-boot-security-jwt</module>
         <module>spring-boot-graphQL</module>
-        <module>spring-boot-sl4j-logging</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
