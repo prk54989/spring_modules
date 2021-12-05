@@ -15,6 +15,7 @@
 <!--        <module>spring-boot-h2</module>-->
 		<module>spring-boot-security-jwt</module>
         <module>spring-boot-graphQL</module>
+        <module>spring-boot-sl4j-logging</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>

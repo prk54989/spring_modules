@@ -2,6 +2,16 @@ spring:
   h2:
     console:
       enabled: true
-
+  jpa:
+    open-in-view: false
 server:
   port: 9192
+
+logging:
+  level:
+    root: info
+    com:
+      platform:
+        sl4j:
+          logging:
+            api:  TRACE
